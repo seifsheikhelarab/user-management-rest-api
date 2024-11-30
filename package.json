@@ -1,0 +1,30 @@
+{
+  "name": "user-management-rest-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "nih",
+  "license": "MIT",
+  "description": "A simple application built to demonstrate REST API functionality using Express and Mongoose.",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "user-management-rest-api"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "rest-api",
+    "user-management"
+  ]
+}
